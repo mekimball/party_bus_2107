@@ -3,7 +3,7 @@ require './lib/bus'
 
 describe Bus do
   context 'Attributes' do
-    xit 'is a bus' do
+    it 'is a bus' do
       bus = Bus.new('Mikes Awesome Bus', 4)
 
       expect(bus).to be_an_instance_of(Bus)
